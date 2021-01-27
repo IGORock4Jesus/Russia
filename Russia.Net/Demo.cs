@@ -16,7 +16,7 @@ namespace Russia
 		{
 			Panel panel = new Panel()
 			{
-				Rectangle = new RectangleF(20.0f, 20.0f, 200.0f, 200.0f),
+				Rectangle = new RectangleF(-0.5f, -0.5f, 1.0f, 1.0f),
 				Color = Color.Aqua
 			};
 			UIManager.Root.AddChild(panel);

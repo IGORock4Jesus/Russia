@@ -16,6 +16,9 @@ namespace Russia
 		private static RenderContext renderContext;
 		private static Direct3D direct;
 		private static readonly List<IDisposable> disposables = new List<IDisposable>();
+
+		public static Device Device => device;
+
 		public delegate void RenderHandler(RenderContext renderContext);
 		public static event RenderHandler Rendering;
 

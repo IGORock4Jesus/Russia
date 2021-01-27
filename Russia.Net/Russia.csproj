@@ -77,10 +77,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RenderContext.cs" />
     <Compile Include="Renderer.cs" />
+    <Compile Include="Mesh.cs" />
     <Compile Include="UI\Panel.cs" />
     <Compile Include="UI\UIManager.cs" />
     <Compile Include="UI\UIObject.cs" />
-    <Compile Include="Vertex.cs" />
+    <Compile Include="Vertex3D.cs" />
+    <Compile Include="Vertex2D.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

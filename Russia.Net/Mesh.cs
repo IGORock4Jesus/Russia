@@ -8,17 +8,18 @@ using System.Threading.Tasks;
 
 namespace Russia
 {
-	class Mesh : IDisposable
+	class Mesh<T> : IDisposable where T : struct
 	{
 		VertexBuffer vertexBuffer;
+		IVertexProvider provider = VertexController.GetProvider<T>();
 
-		public void UpdateBuffer(Vertex3D[] vertices)
+		public void UpdateBuffer(T[] vertices)
 		{
 			if (vertexBuffer != null)
 			{
 				vertexBuffer.Dispose();
 			}
-			vertexBuffer = new VertexBuffer(Renderer.Device, Vertex3D.size * vertices.Length, Usage.WriteOnly, Vertex3D.format, Pool.Managed);
+			vertexBuffer = new VertexBuffer(Renderer.Device, provider.Size * vertices.Length, Usage.WriteOnly, provider.Format, Pool.Managed);
 			using (var stream = vertexBuffer.Lock(0, 0, LockFlags.None))
 			{
 				stream.WriteRange(vertices);
@@ -35,8 +36,8 @@ namespace Russia
 
 		internal void Render(RenderContext renderContext)
 		{
-			renderContext.Device.VertexFormat = Vertex3D.format;
-			renderContext.Device.SetStreamSource(0, vertexBuffer, 0, Vertex3D.size);
+			renderContext.Device.VertexFormat = provider.Format;
+			renderContext.Device.SetStreamSource(0, vertexBuffer, 0, provider.Size);
 			renderContext.Device.DrawPrimitives(PrimitiveType.TriangleFan, 0, 2);
 		}
 	}

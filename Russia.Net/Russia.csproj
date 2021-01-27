@@ -83,6 +83,8 @@
     <Compile Include="UI\UIObject.cs" />
     <Compile Include="Vertex3D.cs" />
     <Compile Include="Vertex2D.cs" />
+    <Compile Include="IVertexProvider.cs" />
+    <Compile Include="VertexController.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

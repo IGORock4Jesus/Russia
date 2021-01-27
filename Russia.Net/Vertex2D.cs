@@ -1,7 +1,9 @@
 ﻿using SharpDX;
 using SharpDX.Direct3D9;
 
+using System;
 using System.Runtime.InteropServices;
+using System.Runtime.Remoting.Messaging;
 
 namespace Russia
 {
@@ -10,8 +12,13 @@ namespace Russia
 	{
 		public Vector4 position;
 		public uint color;
+	}
 
-		public static readonly VertexFormat format = VertexFormat.PositionRhw | VertexFormat.Diffuse;
-		public static readonly int size = Marshal.SizeOf<Vertex2D>();
+	class Vertex2DProvider : IVertexProvider
+	{
+		public int Size => Marshal.SizeOf<Vertex2D>();
+		public VertexFormat Format => VertexFormat.PositionRhw | VertexFormat.Diffuse;
+
+		public Type VertexType => typeof(Vertex2D);
 	}
 }

@@ -3,18 +3,17 @@ using SharpDX.Direct3D9;
 
 using System;
 using System.Runtime.InteropServices;
-using System.Runtime.Remoting.Messaging;
 
-namespace Russia
+namespace Russia.Graphics
 {
 	[StructLayout(LayoutKind.Sequential)]
-	internal struct Vertex2D
+	public struct Vertex2D
 	{
 		public Vector4 position;
 		public uint color;
 	}
 
-	class Vertex2DProvider : IVertexProvider
+	internal class Vertex2DProvider : IVertexProvider
 	{
 		public int Size => Marshal.SizeOf<Vertex2D>();
 		public VertexFormat Format => VertexFormat.PositionRhw | VertexFormat.Diffuse;

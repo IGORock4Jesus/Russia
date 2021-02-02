@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Russia
+namespace Russia.Graphics
 {
 	internal static class VertexController
 	{

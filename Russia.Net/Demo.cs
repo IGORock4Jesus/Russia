@@ -1,25 +1,45 @@
-﻿using Russia.UI;
+﻿using Russia.Core;
+using Russia.UI;
+using Russia.UI.Constraints;
 
 using SharpDX;
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace Russia
 {
-	static class Demo
+	internal class Demo : App
 	{
-		public static void Initialize()
+		protected override void OnInitialize()
 		{
 			Panel panel = new Panel()
 			{
-				Rectangle = new RectangleF(100.0f, 100.0f, 200.0f, 200.0f),
+				RelativePosition = new Vector2(100.0f, 100.0f),
+				Size = new Vector2(200.0f, 200.0f),
 				Color = Color.Aqua
 			};
-			UIManager.Root.AddChild(panel);
+
+			panel.Transform.Left = new AbsoluteConstraint(200.0f);
+			panel.Transform.Top = new AbsoluteConstraint(100.0f);
+
+			UI.Root.AddChild(panel);
+
+			Label label = new Label()
+			{
+				RelativePosition = new Vector2(20.0f, 20.0f),
+				Size = new Vector2(100.0f, 100.0f),
+				Text = "Должен быть поверх панели",
+				Color = Color.Red
+			};
+			panel.AddChild(label);
+
+
+			Panel panel2 = new Panel()
+			{
+				RelativePosition = new Vector2(100.0f, 100.0f),
+				Size = new Vector2(50.0f, 50.0f),
+				Color = Color.Red
+			};
+			panel.AddChild(panel2);
+
 		}
 	}
 }

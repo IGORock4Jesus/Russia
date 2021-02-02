@@ -65,26 +65,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ColorExtentions.cs" />
     <Compile Include="Demo.cs" />
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RenderContext.cs" />
-    <Compile Include="Renderer.cs" />
-    <Compile Include="Mesh.cs" />
-    <Compile Include="UI\Panel.cs" />
-    <Compile Include="UI\UIManager.cs" />
-    <Compile Include="UI\UIObject.cs" />
-    <Compile Include="Vertex3D.cs" />
-    <Compile Include="Vertex2D.cs" />
-    <Compile Include="IVertexProvider.cs" />
-    <Compile Include="VertexController.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -105,10 +88,23 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Content Include="Shaders\UIBaseVertexShader.hlsl" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Russia.Core\Russia.Core.csproj">
+      <Project>{dbc6c28b-752a-4d60-9072-59c69bcbb79e}</Project>
+      <Name>Russia.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Russia.Graphics\Russia.Graphics.csproj">
+      <Project>{55754008-fd23-46fe-b3d8-8e4a56457656}</Project>
+      <Name>Russia.Graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Russia.UI\Russia.UI.csproj">
+      <Project>{2071e668-a999-4669-981a-51cf2f71dbd8}</Project>
+      <Name>Russia.UI</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

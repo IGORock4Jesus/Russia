@@ -55,11 +55,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ColorExtentionsTests.cs" />
+    <Compile Include="UI\TransformTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\Constraints\AbsoluteConstraintTests.cs" />
+    <Compile Include="UI\Constraints\RelativeConstraintTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Russia.Graphics\Russia.Graphics.csproj">
+      <Project>{55754008-fd23-46fe-b3d8-8e4a56457656}</Project>
+      <Name>Russia.Graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Russia.Net\Russia.csproj">
+      <Project>{65d081ff-8e40-457d-a13f-6082f1d3a475}</Project>
+      <Name>Russia</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

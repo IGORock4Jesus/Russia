@@ -4,7 +4,7 @@ using SharpDX.Direct3D9;
 using System;
 using System.Runtime.InteropServices;
 
-namespace Russia
+namespace Russia.Graphics
 {
 	[StructLayout(LayoutKind.Sequential)]
 	internal struct Vertex3D
@@ -13,8 +13,7 @@ namespace Russia
 		public uint color;
 	}
 
-
-	class Vertex3DProvider : IVertexProvider
+	internal class Vertex3DProvider : IVertexProvider
 	{
 		public int Size => Marshal.SizeOf<Vertex3D>();
 		public VertexFormat Format => VertexFormat.Position | VertexFormat.Diffuse;

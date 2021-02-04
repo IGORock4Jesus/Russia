@@ -8,7 +8,7 @@ namespace Russia.UI
 	public class Label : UIObject
 	{
 		private readonly TextView view;
-		private RectangleF rectangle;
+		//private RectangleF rectangle;
 
 		public string Text
 		{
@@ -29,18 +29,19 @@ namespace Russia.UI
 
 		protected override void OnAbsolutePositionChanged()
 		{
-			rectangle = new RectangleF(Position.X, Position.Y, Size.X, Size.Y);
-			view.Rectangle = rectangle;
+			//rectangle = new RectangleF(Position.X, Position.Y, Size.X, Size.Y);
+			//view.Rectangle = rectangle;
 		}
 
 		protected override void OnSizeChanged()
 		{
-			rectangle = new RectangleF(Position.X, Position.Y, Size.X, Size.Y);
-			view.Rectangle = rectangle;
+			//rectangle = new RectangleF(Position.X, Position.Y, Size.X, Size.Y);
+			//view.Rectangle = rectangle;
 		}
 
 		protected override void OnInitializeGraphics(RenderContext renderContext)
 		{
+			view.Rectangle = new RectangleF(Position.X, Position.Y, Size.X, Size.Y);
 			renderContext.Scene.Add(view);
 		}
 	}

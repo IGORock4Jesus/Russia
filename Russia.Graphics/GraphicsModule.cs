@@ -50,7 +50,7 @@ namespace Russia.Graphics
 		public void Initialize()
 		{
 			renderer.Initialize(handle, width, height);
-			context = new RenderContext(renderer.Device, scene);
+			context = new RenderContext(renderer.Device, scene, new SharpDX.RectangleF(0.0f, 0.0f, width, height));
 
 			job.Start();
 		}

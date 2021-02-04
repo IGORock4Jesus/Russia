@@ -1,10 +1,10 @@
 #pragma once
 
 #include <wrl.h>
-#include <d3d9.h>
+#include <D3D11.h>
 
-bool InitializeRenderer(HWND hwnd, int width, int height);
+HRESULT InitializeRenderer(HWND hwnd, int width, int height);
 void ReleaseRenderer();
 
-Microsoft::WRL::ComPtr<IDirect3DDevice9> GetDevice();
+Microsoft::WRL::ComPtr<ID3D11Device> GetDevice();
 

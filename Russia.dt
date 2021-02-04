@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-16"?>
+<DevTrackerData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SolutionTotalEditTime="PT8M39.4769583S" SolutionTotalViewTime="PT17M36.7014724S" SolutionTotalDebugTime="PT3M39.1105657S">
+  <FileVersion>
+    <Major>1</Major>
+    <Minor>0</Minor>
+  </FileVersion>
+  <SolutionFolder>C:\Users\barbara\source\repos\Russia</SolutionFolder>
+  <SolutionCreattionDate>2021-02-04T19:47:31.3378436+03:00</SolutionCreattionDate>
+  <ProjectsCreatedDateList>
+    <ProjectCreated>
+      <ProjectName>C:\Users\barbara\Source\Repos\Russia\Russia.Net\Russia.csproj</ProjectName>
+      <CreatedDate>2021-02-04T19:45:09.0847185+03:00</CreatedDate>
+    </ProjectCreated>
+    <ProjectCreated>
+      <ProjectName>C:\Users\barbara\Source\Repos\Russia\Russia.Tests\Russia.Tests.csproj</ProjectName>
+      <CreatedDate>2021-02-04T19:45:09.0867191+03:00</CreatedDate>
+    </ProjectCreated>
+    <ProjectCreated>
+      <ProjectName>C:\Users\barbara\Source\Repos\Russia\Russia.Native\Russia.Native.vcxproj</ProjectName>
+      <CreatedDate>2021-02-04T19:45:09.0807183+03:00</CreatedDate>
+    </ProjectCreated>
+    <ProjectCreated>
+      <ProjectName>C:\Users\barbara\Source\Repos\Russia\Russia.UI\Russia.UI.csproj</ProjectName>
+      <CreatedDate>2021-02-04T19:45:09.0917182+03:00</CreatedDate>
+    </ProjectCreated>
+    <ProjectCreated>
+      <ProjectName>C:\Users\barbara\Source\Repos\Russia\Russia.Graphics\Russia.Graphics.csproj</ProjectName>
+      <CreatedDate>2021-02-04T19:45:09.0757179+03:00</CreatedDate>
+    </ProjectCreated>
+    <ProjectCreated>
+      <ProjectName>C:\Users\barbara\Source\Repos\Russia\Russia.Core\Russia.Core.csproj</ProjectName>
+      <CreatedDate>2021-02-04T19:45:09.0717185+03:00</CreatedDate>
+    </ProjectCreated>
+    <ProjectCreated>
+      <ProjectName>C:\Users\barbara\Source\Repos\Russia\Russia.Common\Russia.Common.csproj</ProjectName>
+      <CreatedDate>2021-02-04T19:45:09.0697192+03:00</CreatedDate>
+    </ProjectCreated>
+  </ProjectsCreatedDateList>
+  <SessionTimeList />
+  <LastSessionTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT3M33.3885503S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>Debug Mode</Item>
+      <ItemType>DebugModeItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2021-02-04T19:53:51.1641653+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M16.5688825S" EditActiveTime="PT1M23.1324945S">
+      <ModifiedDate>2021-02-04T20:10:40.9317912+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.Net\Demo.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.Net\Russia.csproj</ProjectName>
+      <CreatedDate>2021-02-04T19:53:23.4963246+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3.7553112S" EditActiveTime="PT22.4153419S">
+      <ModifiedDate>2021-02-04T20:01:46.2267936+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.Graphics\GraphicsModule.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.Graphics\Russia.Graphics.csproj</ProjectName>
+      <CreatedDate>2021-02-04T20:00:45.7622188+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT12.5511066S" EditActiveTime="PT1M2.1154399S">
+      <ModifiedDate>2021-02-04T20:12:24.1483379+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.UI\Label.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.UI\Russia.UI.csproj</ProjectName>
+      <CreatedDate>2021-02-04T20:11:09.5187831+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT16.9842537S" EditActiveTime="PT1M26.9278776S">
+      <ModifiedDate>2021-02-04T20:08:59.0736987+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.UI\Panel.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.UI\Russia.UI.csproj</ProjectName>
+      <CreatedDate>2021-02-04T20:07:00.4793467+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT4.166821S" EditActiveTime="PT38.6163667S">
+      <ModifiedDate>2021-02-04T20:01:46.2467901+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.Graphics\RenderContext.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.Graphics\Russia.Graphics.csproj</ProjectName>
+      <CreatedDate>2021-02-04T20:00:02.9920232+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT57.6643324S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.Native\Renderer.cpp</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.Native\Russia.Native.vcxproj</ProjectName>
+      <CreatedDate>2021-02-04T20:17:18.1666406+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2.4871752S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.Native\Russia.Native.vcxproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2021-02-04T19:53:42.3829834+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M3.031697S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.Tests\Russia.Tests.csproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2021-02-04T19:53:44.8711601+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT32.6152957S" EditActiveTime="PT17.570904S">
+      <ModifiedDate>2021-02-04T20:01:46.2617912+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.UI\Transform.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.UI\Russia.UI.csproj</ProjectName>
+      <CreatedDate>2021-02-04T20:01:23.5020367+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M36.6504474S" EditActiveTime="PT1M6.6689511S">
+      <ModifiedDate>2021-02-04T20:06:32.0002663+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.UI\UIManager.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.UI\Russia.UI.csproj</ProjectName>
+      <CreatedDate>2021-02-04T19:58:34.7021671+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M49.2978363S" EditActiveTime="PT35.2487804S">
+      <ModifiedDate>2021-02-04T20:13:53.4463218+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.UI\UIObject.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.UI\Russia.UI.csproj</ProjectName>
+      <CreatedDate>2021-02-04T19:57:28.3095475+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT52.7828496S" EditActiveTime="PT1M46.7808028S">
+      <ModifiedDate>2021-02-04T20:20:08.8808667+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.Native\VertexBuffer.h</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.Native\Russia.Native.vcxproj</ProjectName>
+      <CreatedDate>2021-02-04T20:18:15.830973+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+  </LastSessionTimeList>
+  <TotalTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT3M39.1105657S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>2</ViewedCount>
+      <Item>Debug Mode</Item>
+      <ItemType>DebugModeItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2021-02-04T19:50:25.0970405+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT5M4.7203421S" EditActiveTime="PT1M23.1324945S">
+      <ModifiedDate>2021-02-04T20:10:40.9317912+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>2</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.Net\Demo.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\Source\Repos\Russia\Russia.Net\Russia.csproj</ProjectName>
+      <CreatedDate>2021-02-04T19:49:26.4813462+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3.7553112S" EditActiveTime="PT22.4153419S">
+      <ModifiedDate>2021-02-04T20:01:46.2267936+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.Graphics\GraphicsModule.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.Graphics\Russia.Graphics.csproj</ProjectName>
+      <CreatedDate>2021-02-04T20:00:45.7622188+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT12.5511066S" EditActiveTime="PT1M2.1154399S">
+      <ModifiedDate>2021-02-04T20:12:24.1483379+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.UI\Label.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.UI\Russia.UI.csproj</ProjectName>
+      <CreatedDate>2021-02-04T20:11:09.5187831+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT16.9842537S" EditActiveTime="PT1M26.9278776S">
+      <ModifiedDate>2021-02-04T20:08:59.0736987+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.UI\Panel.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.UI\Russia.UI.csproj</ProjectName>
+      <CreatedDate>2021-02-04T20:07:00.4793467+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT4.166821S" EditActiveTime="PT38.6163667S">
+      <ModifiedDate>2021-02-04T20:01:46.2467901+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.Graphics\RenderContext.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.Graphics\Russia.Graphics.csproj</ProjectName>
+      <CreatedDate>2021-02-04T20:00:02.9920232+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT57.6643324S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.Native\Renderer.cpp</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.Native\Russia.Native.vcxproj</ProjectName>
+      <CreatedDate>2021-02-04T20:17:18.1666406+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2.4871752S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.Native\Russia.Native.vcxproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2021-02-04T19:53:42.3829834+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M3.031697S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.Tests\Russia.Tests.csproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2021-02-04T19:53:44.8711601+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT32.6152957S" EditActiveTime="PT17.570904S">
+      <ModifiedDate>2021-02-04T20:01:46.2617912+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.UI\Transform.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.UI\Russia.UI.csproj</ProjectName>
+      <CreatedDate>2021-02-04T20:01:23.5020367+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M36.6504474S" EditActiveTime="PT1M6.6689511S">
+      <ModifiedDate>2021-02-04T20:06:32.0002663+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.UI\UIManager.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.UI\Russia.UI.csproj</ProjectName>
+      <CreatedDate>2021-02-04T19:58:34.7021671+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M49.2978363S" EditActiveTime="PT35.2487804S">
+      <ModifiedDate>2021-02-04T20:13:53.4463218+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.UI\UIObject.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.UI\Russia.UI.csproj</ProjectName>
+      <CreatedDate>2021-02-04T19:57:28.3095475+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT52.7778502S" EditActiveTime="PT1M46.7808028S">
+      <ModifiedDate>2021-02-04T20:20:08.8808667+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.Native\VertexBuffer.h</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.Native\Russia.Native.vcxproj</ProjectName>
+      <CreatedDate>2021-02-04T20:18:15.830973+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+  </TotalTimeList>
+  <HistoryTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT52.7778502S" EditActiveTime="PT1M46.7808028S">
+      <ModifiedDate>2021-02-04T20:20:08.8808667+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.Native\VertexBuffer.h</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.Native\Russia.Native.vcxproj</ProjectName>
+      <CreatedDate>2021-02-04T20:18:15.830973+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT57.6643324S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.Native\Renderer.cpp</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.Native\Russia.Native.vcxproj</ProjectName>
+      <CreatedDate>2021-02-04T20:17:18.1666406+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT12.5511066S" EditActiveTime="PT1M2.1154399S">
+      <ModifiedDate>2021-02-04T20:12:24.1483379+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.UI\Label.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.UI\Russia.UI.csproj</ProjectName>
+      <CreatedDate>2021-02-04T20:11:09.5187831+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT16.9842537S" EditActiveTime="PT1M26.9278776S">
+      <ModifiedDate>2021-02-04T20:08:59.0736987+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.UI\Panel.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.UI\Russia.UI.csproj</ProjectName>
+      <CreatedDate>2021-02-04T20:07:00.4793467+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT32.6152957S" EditActiveTime="PT17.570904S">
+      <ModifiedDate>2021-02-04T20:01:46.2617912+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.UI\Transform.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.UI\Russia.UI.csproj</ProjectName>
+      <CreatedDate>2021-02-04T20:01:23.5020367+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3.7553112S" EditActiveTime="PT22.4153419S">
+      <ModifiedDate>2021-02-04T20:01:46.2267936+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.Graphics\GraphicsModule.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.Graphics\Russia.Graphics.csproj</ProjectName>
+      <CreatedDate>2021-02-04T20:00:45.7622188+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT4.166821S" EditActiveTime="PT38.6163667S">
+      <ModifiedDate>2021-02-04T20:01:46.2467901+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.Graphics\RenderContext.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.Graphics\Russia.Graphics.csproj</ProjectName>
+      <CreatedDate>2021-02-04T20:00:02.9920232+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M36.6504474S" EditActiveTime="PT1M6.6689511S">
+      <ModifiedDate>2021-02-04T20:06:32.0002663+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.UI\UIManager.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.UI\Russia.UI.csproj</ProjectName>
+      <CreatedDate>2021-02-04T19:58:34.7021671+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M49.2978363S" EditActiveTime="PT35.2487804S">
+      <ModifiedDate>2021-02-04T20:13:53.4463218+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.UI\UIObject.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.UI\Russia.UI.csproj</ProjectName>
+      <CreatedDate>2021-02-04T19:57:28.3095475+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M33.3885503S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>Debug Mode</Item>
+      <ItemType>DebugModeItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2021-02-04T19:53:51.1641653+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M3.031697S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.Tests\Russia.Tests.csproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2021-02-04T19:53:44.8711601+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2.4871752S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.Native\Russia.Native.vcxproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2021-02-04T19:53:42.3829834+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M16.5688825S" EditActiveTime="PT1M23.1324945S">
+      <ModifiedDate>2021-02-04T20:10:40.9317912+03:00</ModifiedDate>
+      <ModifiedBy>barbara</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.Net\Demo.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\source\repos\Russia\Russia.Net\Russia.csproj</ProjectName>
+      <CreatedDate>2021-02-04T19:53:23.4963246+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT5.7220154S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>Debug Mode</Item>
+      <ItemType>DebugModeItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2021-02-04T19:50:25.0970405+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M48.1514596S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\barbara\source\repos\Russia\Russia.Net\Demo.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\barbara\Source\Repos\Russia\Russia.Net\Russia.csproj</ProjectName>
+      <CreatedDate>2021-02-04T19:49:26.4813462+03:00</CreatedDate>
+      <ViewedBy>barbara</ViewedBy>
+    </DevTrackerDataItem>
+  </HistoryTimeList>
+</DevTrackerData>

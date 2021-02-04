@@ -17,7 +17,6 @@ namespace Russia.UI
 		}
 
 		private readonly Mesh<Vertex2D> mesh;
-		private RectangleF rectangle;
 		private Color color;
 
 		public Panel()
@@ -27,13 +26,13 @@ namespace Russia.UI
 
 		protected override void OnAbsolutePositionChanged()
 		{
-			rectangle = new RectangleF(Position.X, Position.Y, Size.X, Size.Y);
-			UpdateMesh();
+			//rectangle = new RectangleF(Position.X, Position.Y, Size.X, Size.Y);
+			//UpdateMesh();
 		}
 		protected override void OnSizeChanged()
 		{
-			rectangle = new RectangleF(Position.X, Position.Y, Size.X, Size.Y);
-			UpdateMesh();
+			//rectangle = new RectangleF(Position.X, Position.Y, Size.X, Size.Y);
+			//UpdateMesh();
 		}
 
 		private void UpdateMesh()
@@ -41,10 +40,10 @@ namespace Russia.UI
 			uint scolor = Color.ToArgb();
 			Vertex2D[] vertices = new Vertex2D[]
 			{
-				new Vertex2D{ position = new Vector4(rectangle.Left, rectangle.Top, 0.0f, 1.0f), color=scolor},
-				new Vertex2D{ position = new Vector4(rectangle.Right, rectangle.Top, 0.0f, 1.0f), color=scolor},
-				new Vertex2D{ position = new Vector4(rectangle.Right, rectangle.Bottom, 0.0f, 1.0f), color=scolor},
-				new Vertex2D{ position = new Vector4(rectangle.Left, rectangle.Bottom, 0.0f, 1.0f), color=scolor},
+				new Vertex2D{ position = new Vector4(Position.X, Position.Y, 0.0f, 1.0f), color=scolor},
+				new Vertex2D{ position = new Vector4(Position.X+Size.X, Position.Y, 0.0f, 1.0f), color=scolor},
+				new Vertex2D{ position = new Vector4(Position.X+Size.X, Position.Y+Size.Y, 0.0f, 1.0f), color=scolor},
+				new Vertex2D{ position = new Vector4(Position.X, Position.Y+Size.Y, 0.0f, 1.0f), color=scolor},
 			};
 			mesh.UpdateBuffer(vertices);
 		}

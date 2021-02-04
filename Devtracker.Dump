@@ -1,0 +1,38 @@
+
+
+04.02.2021 23:49:06 :
+System.Runtime.InteropServices.COMException (0x80004005): Значение не попадает в ожидаемый диапазон.
+   в System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   в Microsoft.VisualStudio.Platform.WindowManagement.DTE.Window.get_ProjectItem()
+   в Microsoft.VisualStudio.Platform.WindowManagement.DTE.WindowBase.<get_ProjectItem>b__55_0()
+   в Microsoft.VisualStudio.Shell.ThreadHelper.Invoke[TResult](Func`1 method)
+   в Microsoft.VisualStudio.Platform.WindowManagement.DTE.WindowBase.get_ProjectItem()
+   в DevTracker.DevTrackerToolWinControl.WindowsEvents_WindowActivated(Window gotFocus, Window lostFocus) в C:\Users\KurtG\Documents\Visual Studio 2017\Projects\DevTracker\DevTracker\DevTrackerToolWinDteEvents.cs:строка 697
+
+04.02.2021 23:49:09 :
+System.Runtime.InteropServices.COMException (0x80004005): Доступ к ликвидированному объекту невозможен.
+Имя объекта: "MarshalingWindowFrame".
+   в System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   в Microsoft.VisualStudio.Platform.WindowManagement.DTE.Window.get_ProjectItem()
+   в Microsoft.VisualStudio.Platform.WindowManagement.DTE.WindowBase.<get_ProjectItem>b__55_0()
+   в Microsoft.VisualStudio.Shell.ThreadHelper.Invoke[TResult](Func`1 method)
+   в Microsoft.VisualStudio.Platform.WindowManagement.DTE.WindowBase.get_ProjectItem()
+   в DevTracker.DevTrackerToolWinControl.WindowsEvents_WindowActivated(Window gotFocus, Window lostFocus) в C:\Users\KurtG\Documents\Visual Studio 2017\Projects\DevTracker\DevTracker\DevTrackerToolWinDteEvents.cs:строка 697
+
+05.02.2021 0:21:44 :
+System.Runtime.InteropServices.COMException (0x80004005): Неопознанная ошибка (Исключение из HRESULT: 0x80004005 (E_FAIL))
+   в System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   в Microsoft.VisualStudio.Platform.WindowManagement.DTE.Window.get_ProjectItem()
+   в Microsoft.VisualStudio.Platform.WindowManagement.DTE.WindowBase.<get_ProjectItem>b__55_0()
+   в Microsoft.VisualStudio.Shell.ThreadHelper.Invoke[TResult](Func`1 method)
+   в Microsoft.VisualStudio.Platform.WindowManagement.DTE.WindowBase.get_ProjectItem()
+   в DevTracker.DevTrackerToolWinControl.WindowsEvents_WindowActivated(Window gotFocus, Window lostFocus) в C:\Users\KurtG\Documents\Visual Studio 2017\Projects\DevTracker\DevTracker\DevTrackerToolWinDteEvents.cs:строка 697
+
+05.02.2021 0:33:05 :
+System.Runtime.InteropServices.COMException (0x80004005): Значение не попадает в ожидаемый диапазон.
+   в System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   в Microsoft.VisualStudio.Platform.WindowManagement.DTE.Window.get_ProjectItem()
+   в Microsoft.VisualStudio.Platform.WindowManagement.DTE.WindowBase.<get_ProjectItem>b__55_0()
+   в Microsoft.VisualStudio.Shell.ThreadHelper.Invoke[TResult](Func`1 method)
+   в Microsoft.VisualStudio.Platform.WindowManagement.DTE.WindowBase.get_ProjectItem()
+   в DevTracker.DevTrackerToolWinControl.WindowsEvents_WindowActivated(Window gotFocus, Window lostFocus) в C:\Users\KurtG\Documents\Visual Studio 2017\Projects\DevTracker\DevTracker\DevTrackerToolWinDteEvents.cs:строка 697

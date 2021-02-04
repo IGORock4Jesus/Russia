@@ -15,21 +15,25 @@ namespace Russia
 				Color = Color.Aqua
 			};
 
-			panel.Transform.Left = new AbsoluteConstraint(200.0f);
-			panel.Transform.Top = new AbsoluteConstraint(100.0f);
-			panel.Transform.Width = new AbsoluteConstraint(200.0f);
-			panel.Transform.Height = new AbsoluteConstraint(100.0f);
+			panel.Transformer.Left = new AbsoluteConstraint(200.0f);
+			panel.Transformer.Top = new AbsoluteConstraint(100.0f);
+			panel.Transformer.Width = new AbsoluteConstraint(200.0f);
+			panel.Transformer.Height = new AbsoluteConstraint(100.0f);
 
 			UI.Root.AddChild(panel);
 
-			//Label label = new Label()
-			//{
-			//	RelativePosition = new Vector2(20.0f, 20.0f),
-			//	Size = new Vector2(100.0f, 100.0f),
-			//	Text = "Должен быть поверх панели",
-			//	Color = Color.Red
-			//};
-			//panel.AddChild(label);
+			Label label = new Label()
+			{
+				Text = "Должен быть поверх панели",
+				Color = Color.Red
+			};
+
+			label.Transformer.Left = new AbsoluteConstraint(20.0f);
+			label.Transformer.Top = new AbsoluteConstraint(20.0f);
+			label.Transformer.Width = new AbsoluteConstraint(100.0f);
+			label.Transformer.Height = new AbsoluteConstraint(100.0f);
+
+			panel.AddChild(label);
 
 
 			//Panel panel2 = new Panel()

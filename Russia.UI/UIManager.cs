@@ -15,6 +15,8 @@ namespace Russia.UI
 
 		public void Initialize(GraphicsModule graphics)
 		{
+			Root.Transformer.Current = new Transform(graphics.Context.Viewport);
+			Root.InitializeGraphics(graphics.Context);
 		}
 	}
 }

@@ -19,12 +19,12 @@ namespace Russia.UI
 
 		public Vector2 Position
 		{
-			get => Transform.Rectangle.TopLeft;
+			get => Transformer.Rectangle.TopLeft;
 		}
 
 		public Vector2 Size
 		{
-			get => new Vector2(Transform.Rectangle.Width, Transform.Rectangle.Height);
+			get => new Vector2(Transformer.Rectangle.Width, Transformer.Rectangle.Height);
 		}
 
 		protected virtual void OnAbsolutePositionChanged() { }
@@ -35,8 +35,10 @@ namespace Russia.UI
 			lock (childrenSaver)
 			{
 				child.parent = this;
-				child.Transform.Parent = Transform.Current;
+				child.Transformer.Parent = Transformer.Current;
+				child.Transformer.Current = new Transform();
 				children.Add(child);
+				child.InitializeGraphics(RenderContext);
 			}
 		}
 
@@ -58,7 +60,7 @@ namespace Russia.UI
 		{
 		}
 
-		public Transformer Transform { get; } = new Transformer();
+		public Transformer Transformer { get; } = new Transformer();
 		public RenderContext RenderContext => renderContext;
 
 		internal void InitializeGraphics(RenderContext renderContext)

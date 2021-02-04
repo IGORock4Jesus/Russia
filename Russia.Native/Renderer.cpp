@@ -1,11 +1,15 @@
 #include "Renderer.h"
 #include <thread>
 #include "Vertex.h"
+#include "VertexBuffer.h"
 
 using namespace Microsoft::WRL;
+using namespace std::chrono_literals;
 
-ComPtr<IDirect3D9> direct;
-ComPtr<IDirect3DDevice9> device;
+ComPtr<IDXGISwapChain> swapChian;
+ComPtr<ID3D11Device> device;
+ComPtr<ID3D11DeviceContext> deviceContext;
+ComPtr<ID3D11RenderTargetView> renderTargetView;
 
 std::thread thread;
 bool enabled;
@@ -13,47 +17,47 @@ bool enabled;
 
 void RenderThread() {
 	while (enabled) {
-		device->Clear(0, nullptr, D3DCLEAR_TARGET | D3DCLEAR_ZBUFFER | D3DCLEAR_STENCIL, 0xff444444, 1.0f, 0);
-		device->BeginScene();
+		float color[]{ 0.2f, 0.2f, 0.2f, 1.0f };
+		deviceContext->ClearRenderTargetView(renderTargetView.Get(), color);
 
-		device->SetFVF(D3DFVF_XYZRHW | D3DFVF_DIFFUSE);
-		Vertex vs[] = {
-			{ 100.0f, 100.0f, 0.0f, 0.0f, 0xffff0000 },
-			{ 300.0f, 100.0f, 0.0f, 0.0f, 0xff0ff000 },
-			{ 300.0f, 300.0f, 0.0f, 0.0f, 0xff00ff00 },
-			{ 100.0f, 300.0f, 0.0f, 0.0f, 0xff0000ff },
-		};
-		device->DrawPrimitiveUP(D3DPT_TRIANGLEFAN, 2, vs, sizeof(Vertex));
+		swapChian->Present(0, 0);
 
-		device->EndScene();
-		device->Present(nullptr, nullptr, nullptr, nullptr);
+		std::this_thread::sleep_for(0s);
 	}
 }
 
-bool InitializeRenderer(HWND hwnd, int width, int height) {
+HRESULT InitializeRenderer(HWND hwnd, int width, int height) {
+	HRESULT result = S_OK;
 
-	if (!(direct = Direct3DCreate9(D3D_SDK_VERSION))) {
-		return false;
+	DXGI_MODE_DESC modeDesc{ 0 };
+	modeDesc.Width = width;
+	modeDesc.Height = height;
+	modeDesc.Format = DXGI_FORMAT_R8G8B8A8_UNORM;
+	modeDesc.RefreshRate = { 1,60 };
+	
+	DXGI_SWAP_CHAIN_DESC swapChainDesc{ 0 };
+	swapChainDesc.BufferCount = 1;
+	swapChainDesc.BufferDesc = modeDesc;
+	swapChainDesc.SampleDesc = { 1,0 };
+	swapChainDesc.BufferUsage = DXGI_USAGE_RENDER_TARGET_OUTPUT;
+	swapChainDesc.OutputWindow = hwnd;
+	swapChainDesc.Windowed = TRUE;
+	swapChainDesc.SwapEffect = DXGI_SWAP_EFFECT_DISCARD;
+
+	if (FAILED(result = D3D11CreateDeviceAndSwapChain(nullptr, D3D_DRIVER_TYPE_HARDWARE, nullptr, 0, nullptr, 0, D3D11_SDK_VERSION, &swapChainDesc, swapChian.GetAddressOf(), device.GetAddressOf(), nullptr, deviceContext.GetAddressOf()))) {
+		return result;
 	}
 
-	D3DPRESENT_PARAMETERS pp{ 0 };
-	pp.BackBufferWidth = width;
-	pp.BackBufferHeight = height;
-	pp.BackBufferCount = 1;
-	pp.SwapEffect = D3DSWAPEFFECT_DISCARD;
-	pp.Windowed = true;
-	pp.hDeviceWindow = hwnd;
-	pp.BackBufferFormat = D3DFMT_A8R8G8B8;
-	pp.AutoDepthStencilFormat = D3DFMT_D24S8;
-	pp.EnableAutoDepthStencil = true;
-
-	direct->CreateDevice(0, D3DDEVTYPE_HAL, hwnd, D3DCREATE_HARDWARE_VERTEXPROCESSING | D3DCREATE_MULTITHREADED, &pp, device.GetAddressOf());
-
-	if (!device) {
-		return false;
+	ComPtr<ID3D11Texture2D> backBuffer;
+	if (FAILED(result = swapChian->GetBuffer(0, IID_PPV_ARGS(backBuffer.GetAddressOf())))) {
+		return result;
 	}
 
-	device->SetRenderState(D3DRS_LIGHTING, FALSE);
+	if (FAILED(result = device->CreateRenderTargetView(backBuffer.Get(), nullptr, renderTargetView.GetAddressOf()))) {
+		return result;
+	}
+
+	deviceContext->OMSetRenderTargets(1, renderTargetView.GetAddressOf(), nullptr);
 
 	enabled = true;
 	thread = std::thread(RenderThread);
@@ -66,10 +70,11 @@ void ReleaseRenderer() {
 	if (thread.joinable()) {
 		thread.join();
 	}
+	deviceContext = nullptr;
 	device = nullptr;
-	direct = nullptr;
+	swapChian = nullptr;
 }
 
-Microsoft::WRL::ComPtr<IDirect3DDevice9> GetDevice() {
+ComPtr<ID3D11Device> GetDevice() {
 	return device;
 }

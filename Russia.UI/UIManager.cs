@@ -6,8 +6,6 @@ namespace Russia.UI
 {
 	public class UIManager : IDisposable
 	{
-		private Scene scene;
-
 		public UIObject Root { get; } = new UIObject();
 
 		public void Dispose()
@@ -17,7 +15,6 @@ namespace Russia.UI
 
 		public void Initialize(GraphicsModule graphics)
 		{
-			Root.InitializeGraphics(graphics.Context);
 		}
 	}
 }

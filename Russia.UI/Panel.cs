@@ -27,12 +27,12 @@ namespace Russia.UI
 
 		protected override void OnAbsolutePositionChanged()
 		{
-			rectangle = new RectangleF(AbsolutePosition.X, AbsolutePosition.Y, Size.X, Size.Y);
+			rectangle = new RectangleF(Position.X, Position.Y, Size.X, Size.Y);
 			UpdateMesh();
 		}
 		protected override void OnSizeChanged()
 		{
-			rectangle = new RectangleF(AbsolutePosition.X, AbsolutePosition.Y, Size.X, Size.Y);
+			rectangle = new RectangleF(Position.X, Position.Y, Size.X, Size.Y);
 			UpdateMesh();
 		}
 
@@ -51,6 +51,7 @@ namespace Russia.UI
 
 		protected override void OnInitializeGraphics(RenderContext renderContext)
 		{
+			UpdateMesh();
 			renderContext.Scene.Add(mesh);
 		}
 	}

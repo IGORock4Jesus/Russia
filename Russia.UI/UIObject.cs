@@ -17,72 +17,26 @@ namespace Russia.UI
 		private Vector2 size;
 		private RenderContext renderContext;
 
-		public Vector2 AbsolutePosition
+		public Vector2 Position
 		{
-			get => absolutePosition;
-			set
-			{
-				if (absolutePosition != value)
-				{
-					absolutePosition = value;
-					OnAbsolutePositionChanged();
-				}
-			}
-		}
-
-		public Vector2 RelativePosition
-		{
-			get => relativePosition;
-			set
-			{
-				if (relativePosition != value)
-				{
-					relativePosition = value;
-					UpdateChildPositions();
-				}
-			}
+			get => Transform.Rectangle.TopLeft;
 		}
 
 		public Vector2 Size
 		{
-			get => size;
-			set
-			{
-				if (size != value)
-				{
-					size = value;
-					OnSizeChanged();
-				}
-			}
+			get => new Vector2(Transform.Rectangle.Width, Transform.Rectangle.Height);
 		}
 
 		protected virtual void OnAbsolutePositionChanged() { }
 		protected virtual void OnSizeChanged() { }
-
-		private void UpdateChildPositions()
-		{
-			CalculatePosition();
-
-			foreach (UIObject child in children)
-			{
-				child.UpdateChildPositions();
-			}
-		}
-
-		private void CalculatePosition()
-		{
-			AbsolutePosition = (parent?.absolutePosition ?? new Vector2(0.0f, 0.0f)) + relativePosition;
-		}
 
 		public void AddChild(UIObject child)
 		{
 			lock (childrenSaver)
 			{
 				child.parent = this;
-				child.Transform.Parent = Transform;
+				child.Transform.Parent = Transform.Current;
 				children.Add(child);
-				child.UpdateChildPositions();
-				child.InitializeGraphics(RenderContext);
 			}
 		}
 
@@ -104,7 +58,7 @@ namespace Russia.UI
 		{
 		}
 
-		public Transform Transform { get; } = new Transform();
+		public Transformer Transform { get; } = new Transformer();
 		public RenderContext RenderContext => renderContext;
 
 		internal void InitializeGraphics(RenderContext renderContext)
